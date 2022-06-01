@@ -1,6 +1,6 @@
 #!name=联通余量(v3)
-#!desc=https://github.com/xream/scripts/tree/main/surge/modules/10010
-#!no json
+#!desc=定时查询联通流量
+
 
 [Script]
 联通余量(v3) = type=cron,cronexp=*/35 * * * *,timeout=30,script-path=https://raw.githubusercontent.com/WoShiY4ng/scripts/main/surge/modules/10010v3/10010.js
